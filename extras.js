@@ -46,10 +46,12 @@ module.exports = {
 
         while (textcount >= textcounter) {
             'use strict';
-
             var searcher = moby.search(text[textcounter]);
             var randomizer = searcher[Math.floor(Math.random() * searcher.length)];
-            posttext[textcounter] = randomizer;
+            
+            if (randomizer != '') {
+                posttext[textcounter] = randomizer;
+            }
 
             textcounter = textcounter + 1;
         }
