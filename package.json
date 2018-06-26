@@ -10,6 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "discord.js": "11.3.2",
-    "moby": "1.1.2"
+    "moby": "1.1.2",
+    "remove-punctuation": "0.0.4",
+    "word-definition": "^2.1.6"
   }
 }
