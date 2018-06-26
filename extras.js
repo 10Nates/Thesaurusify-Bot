@@ -48,6 +48,7 @@ module.exports = {
 
         while (textcount >= textcounter) {
             'use strict';
+<<<<<<< HEAD
 
             var searcher = moby.search(midtext[textcounter]);
             var randomizer = searcher[Math.floor(Math.random() * searcher.length)];
@@ -84,6 +85,7 @@ module.exports = {
                 posttext[textcounter] = perrem + onlypunct;
                 console.log(posttext)
 
+<<<<<<< HEAD
                 textcounter = textcounter + 1;
             }
             const finaltext = posttext.join(' ') + '.';
@@ -92,3 +94,6 @@ module.exports = {
         }
         */
 }
+=======
+}
+>>>>>>> c6c6da8583be6294a79039227b7b4734b5b3e4de
